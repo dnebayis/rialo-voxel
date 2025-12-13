@@ -1,0 +1,30 @@
+:root {
+  --background: #010101;
+  --foreground: #E8E3D5;
+  --accent: #a9ddd3;
+  --accent-glow: rgba(169, 221, 211, 0.5);
+  --glass: rgba(232, 227, 213, 0.05);
+  --glass-border: rgba(232, 227, 213, 0.1);
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
